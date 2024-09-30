@@ -13,6 +13,7 @@
 		1ED4B8DF2CA8A58C0057DD77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED4B8DE2CA8A58C0057DD77 /* Preview Assets.xcassets */; };
 		1ED4B8E62CA8A5BF0057DD77 /* CircularShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED4B8E52CA8A5BF0057DD77 /* CircularShape.swift */; };
 		1EF39D862CA94A6100419EEF /* Circular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF39D852CA94A6100419EEF /* Circular.swift */; };
+		1EF39D882CA9F6C100419EEF /* Color-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF39D872CA9F6C100419EEF /* Color-Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		1ED4B8DE2CA8A58C0057DD77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1ED4B8E52CA8A5BF0057DD77 /* CircularShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularShape.swift; sourceTree = "<group>"; };
 		1EF39D852CA94A6100419EEF /* Circular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circular.swift; sourceTree = "<group>"; };
+		1EF39D872CA9F6C100419EEF /* Color-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				1ED4B8D92CA8A58A0057DD77 /* ContentView.swift */,
 				1ED4B8E52CA8A5BF0057DD77 /* CircularShape.swift */,
 				1EF39D852CA94A6100419EEF /* Circular.swift */,
+				1EF39D872CA9F6C100419EEF /* Color-Extension.swift */,
 				1ED4B8DB2CA8A58C0057DD77 /* Assets.xcassets */,
 				1ED4B8DD2CA8A58C0057DD77 /* Preview Content */,
 			);
@@ -147,6 +150,7 @@
 				1ED4B8DA2CA8A58A0057DD77 /* ContentView.swift in Sources */,
 				1EF39D862CA94A6100419EEF /* Circular.swift in Sources */,
 				1ED4B8D82CA8A58A0057DD77 /* Circulus_Swfit_UIApp.swift in Sources */,
+				1EF39D882CA9F6C100419EEF /* Color-Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

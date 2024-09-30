@@ -4,7 +4,6 @@
 //
 //  Created by Sabri Çetin on 28.09.2024.
 //
-
 import SwiftUI
 import Foundation
 
@@ -38,10 +37,8 @@ struct CircularShape: Shape {
         let center = CGPoint(x: width / 2 , y: height / 2)
         let endAngle = (self.percent / 100 * 360) + self.startAngle
         
-        
         return Path { path in
             path.addArc(center: center, radius: radius, startAngle: Angle(degrees: startAngle), endAngle: Angle(degrees: endAngle), clockwise: false)
         }
     }
 }
-

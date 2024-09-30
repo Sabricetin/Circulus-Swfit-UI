@@ -4,17 +4,14 @@
 //
 //  Created by Sabri Çetin on 29.09.2024.
 //
-
 import SwiftUI
-
-
 
 struct Circular: View {
     var lineWidht: CGFloat
     var backgroundColor: Color
     var foregroundColor: Color
     var percentege: Double
-    var gradient : Gradient
+    var gradientColors : [Color]
     
     var body: some View {
         ZStack {
@@ -27,8 +24,8 @@ struct Circular: View {
             Circle()
                 .trim(from: 0.0, to: percentege / 100)
                 .stroke(
-                    AngularGradient( gradient: gradient,
-                                     center: .center) ,
+                    
+                AngularGradient(gradient: Gradient(colors: gradientColors), center: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/ ),
                     
                     style: StrokeStyle(lineWidth: lineWidht, lineCap: .round, lineJoin: .round)) // Uçları yuvarlatma
                 .foregroundColor(foregroundColor)
@@ -37,36 +34,3 @@ struct Circular: View {
         }
     }
 }
-
-/* struct Circular: View {
-    
-    let lineWidht : CGFloat
-    let backgroundColor : Color
-    let foregroundColor : Color
-    let percentege : Double
-    
-    var body: some View {
-        GeometryReader {geometry in
-            
-            ZStack {
-                
-                CircularShape()
-                    .stroke(style: StrokeStyle(lineWidth: lineWidht))
-                    .fill(backgroundColor)
-                
-                CircularShape(percent: percentege)
-                    .stroke(style: StrokeStyle(lineWidth: lineWidht))
-                    .fill(foregroundColor)
-            } 
-            .animation(.smooth(duration: 1.5), value: percentege)
-            .padding(lineWidht / 1.5)
-        }
-     
-            
-    }
-}
-
-#Preview {
-    Circular(lineWidht: 10, backgroundColor: .purple, foregroundColor: .pink, percentege: 50)
-}
-*/

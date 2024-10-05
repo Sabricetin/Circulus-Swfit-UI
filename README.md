@@ -1,4 +1,4 @@
-### Circular Animation Uygulaması
+# Circular Animation Uygulaması
 
 Bu SwiftUI uygulaması, ekrandaki dairesel animasyonlara dokunarak %0 ile %100 arasında değişen doluluk oranları sunar. Renkler, hex kodlarıyla tanımlanmış gradient geçişler kullanılarak oluşturulur.
 

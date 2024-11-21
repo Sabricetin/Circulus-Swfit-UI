@@ -27,3 +27,7 @@ Bu SwiftUI uygulaması, ekrandaki dairesel animasyonlara dokunarak %0 ile %100 a
 
 #### Hex Renklerle Renk Tanımlama  
 `Color` uzantısı ile hex kodları kullanılarak renkler tanımlanır. Örneğin, `#e32115` kırmızı, `#f82a8f` pembe gradient geçişi olarak kullanılır.
+
+## Ekran Görüntüsü
+
+![Circular-Swfit-UI](https://github.com/user-attachments/assets/8ea6915c-7ae3-4afe-9e14-2aa7c9c66b07)
